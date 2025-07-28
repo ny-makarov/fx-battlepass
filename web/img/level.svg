@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="160px" height="193px" viewBox="0 0 160 193" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.50239235" y1="0.40669855" x2="0.50239235" y2="1" id="gradient_1">
+      <stop offset="0%" stop-color="#8A42FF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#8A42FF" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.5" y1="0.50340134" x2="0.5" y2="1" id="gradient_2">
+      <stop offset="0%" stop-color="#8A42FF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#8A42FF" />
+    </linearGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="49.999992%" cy="50.000023%" fx="49.999992%" fy="50.000023%" r="90.9116%" gradientTransform="translate(0.49999994,0.50000024),rotate(139.26349),scale(1,0.72584265),translate(-0.49999994,-0.50000024)" id="gradient_3">
+      <stop offset="0%" stop-color="#8A42FF" />
+      <stop offset="100%" stop-color="#8A42FF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="49.999992%" cy="50.000023%" fx="49.999992%" fy="50.000023%" r="90.911606%" gradientTransform="translate(0.49999994,0.50000024),rotate(139.26349),scale(1,0.72584265),translate(-0.49999994,-0.50000024)" id="gradient_4">
+      <stop offset="0%" stop-color="#8A42FF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#8A42FF" />
+    </radialGradient>
+    <path d="M80.5 76L131.162 105.25L131.162 163.75L80.5 193L29.8375 163.75L29.8375 105.25L80.5 76Z" id="path_1" />
+    <path d="M80 0L149.282 40L149.282 120L80 160L10.718 120L10.718 40L80 0Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Group">
+    <g id="Polygon-2">
+      <use stroke="none" fill="url(#gradient_1)" fill-opacity="0.15" xlink:href="#path_1" fill-rule="evenodd" />
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="url(#gradient_2)" stroke-width="2" />
+      </g>
+    </g>
+    <g id="Polygon-3">
+      <use stroke="none" fill="url(#gradient_3)" fill-opacity="0.3" xlink:href="#path_2" fill-rule="evenodd" />
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#8A42FF" stroke-width="2" />
+      </g>
+    </g>
+    <path d="M80 17L134.56 48.5L134.56 111.5L80 143L25.4404 111.5L25.4404 48.5L80 17Z" id="Polygon-11" fill="url(#gradient_4)" fill-opacity="0.7" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
